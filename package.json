@@ -7,7 +7,8 @@
     "icofy": "./bin/index.js"
   },
   "scripts": {
-    "start": "node index.js",
+    "preinstall": "npx npm-force-resolutions",
+    "start": "node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,9 +25,13 @@
   },
   "homepage": "https://github.com/crescoinnovations/icofy#readme",
   "dependencies": {
+    "commander": "^6.1.0",
     "favicons": "^6.2.0",
     "image-size": "^0.9.1",
-    "is-image": "^3.0.0",
-    "to-ico": "^1.1.5"
+    "is-image": "^3.0.0"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5",
+    "url-regex": "^5.0.0"
   }
 }
