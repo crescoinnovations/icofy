@@ -1,0 +1,32 @@
+{
+  "name": "icofy",
+  "version": "1.0.0",
+  "description": "A tool to convert image files to .ico for faster front-end development 🚀",
+  "main": "index.js",
+  "bin": {
+    "icofy": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crescoinnovations/icofy.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Bas van Driel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crescoinnovations/icofy/issues"
+  },
+  "homepage": "https://github.com/crescoinnovations/icofy#readme",
+  "dependencies": {
+    "favicons": "^6.2.0",
+    "image-size": "^0.9.1",
+    "is-image": "^3.0.0",
+    "to-ico": "^1.1.5"
+  }
+}
