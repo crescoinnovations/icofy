@@ -1,7 +1,7 @@
 {
   "name": "icofy",
   "version": "1.0.0",
-  "description": "A tool to convert image files to .ico for faster front-end development 🚀",
+  "description": "A tool to convert images to favicons 🚀",
   "main": "index.js",
   "bin": {
     "icofy": "./bin/index.js"
