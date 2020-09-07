@@ -1,13 +1,12 @@
 {
   "name": "icofy",
   "version": "1.0.0",
-  "description": "A tool to convert image files to .ico for faster front-end development 🚀",
+  "description": "A tool to convert images to favicons 🚀",
   "main": "index.js",
   "bin": {
     "icofy": "./bin/index.js"
   },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "start": "node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,5 +32,6 @@
   "resolutions": {
     "minimist": "^1.2.5",
     "url-regex": "^5.0.0"
-  }
+  },
+  "devDependencies": {}
 }
