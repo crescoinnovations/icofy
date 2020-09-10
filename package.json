@@ -1,6 +1,6 @@
 {
   "name": "icofy",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A tool to convert images to favicons 🚀",
   "main": "index.js",
   "bin": {
@@ -15,7 +15,15 @@
     "url": "git+https://github.com/crescoinnovations/icofy.git"
   },
   "keywords": [
-    "cli"
+    "buffer",
+    "cli-app",
+    "cli",
+    "convert",
+    "fast",
+    "ico",
+    "png",
+    "images",
+    "image-converter"
   ],
   "author": "Bas van Driel",
   "license": "MIT",
