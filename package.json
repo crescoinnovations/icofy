@@ -4,7 +4,7 @@
   "description": "A tool to convert images to favicons 🚀",
   "main": "index.js",
   "bin": {
-    "icofy": "./bin/index.js"
+    "icofy": "bin/index.js"
   },
   "scripts": {
     "start": "node ./bin/index.js",
@@ -33,13 +33,12 @@
   "homepage": "https://github.com/crescoinnovations/icofy#readme",
   "dependencies": {
     "commander": "^6.1.0",
-    "favicons": "^6.2.0",
+    "favicons": "^4.8.2",
     "image-size": "^0.9.1",
     "is-image": "^3.0.0"
   },
   "resolutions": {
     "minimist": "^1.2.5",
     "url-regex": "^5.0.0"
-  },
-  "devDependencies": {}
+  }
 }
