@@ -31,4 +31,4 @@ icofy test.png . --which android,apple,firefox,coast,firefox,yandex
 [favicons](https://github.com/itgalaxy/favicons) - Used for this module
 
 ## License
-MIT © [Bas van Driel](https://github.com/basvandriel)
+MIT © [Cresco Innovations](https://github.com/crescoinnovations)
